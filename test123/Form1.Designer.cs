@@ -35,6 +35,8 @@
             this.btnSaveNext = new System.Windows.Forms.Button();
             this.btnFinish = new System.Windows.Forms.Button();
             this.treeView1 = new System.Windows.Forms.TreeView();
+            this.label3 = new System.Windows.Forms.Label();
+            this.txtQuantity = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // txtTitle
@@ -97,11 +99,29 @@
             this.treeView1.Size = new System.Drawing.Size(360, 195);
             this.treeView1.TabIndex = 7;
             // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(149, 51);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(46, 13);
+            this.label3.TabIndex = 9;
+            this.label3.Text = "Quantity";
+            // 
+            // txtQuantity
+            // 
+            this.txtQuantity.Location = new System.Drawing.Point(201, 48);
+            this.txtQuantity.Name = "txtQuantity";
+            this.txtQuantity.Size = new System.Drawing.Size(86, 20);
+            this.txtQuantity.TabIndex = 8;
+            // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(450, 350);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.txtQuantity);
             this.Controls.Add(this.treeView1);
             this.Controls.Add(this.btnFinish);
             this.Controls.Add(this.btnSaveNext);
@@ -126,6 +146,8 @@
         private System.Windows.Forms.Button btnSaveNext;
         private System.Windows.Forms.Button btnFinish;
         private System.Windows.Forms.TreeView treeView1;
+        private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.TextBox txtQuantity;
     }
 }
 

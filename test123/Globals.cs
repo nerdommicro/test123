@@ -10,7 +10,10 @@ namespace test123
     {
         public static IList<string> iListTitles;
         public static IList<double> iListPrices;
-        
+        public static IList<int> iListQuantity;
+
+
+
 
     }
 }
